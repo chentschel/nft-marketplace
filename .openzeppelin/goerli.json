@@ -1,0 +1,21 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "reward-nfts/ArtToken": [
+      {
+        "address": "0x51F37e88072c45F93c727Bf2A040954C68473211",
+        "kind": "NonProxy",
+        "bytecodeHash": "631a0c2164fada390b5697d24a9bd7bdf45c6ff722a3918f32489793330806f6"
+      }
+    ],
+    "reward-nfts/Marketplace": [
+      {
+        "address": "0xF11de26883EB2EBF9877a01703DDC1eB619094E6",
+        "kind": "NonProxy",
+        "bytecodeHash": "90070e76d5aba3b8de668f3586c3781d0bf2e8f173093b2871b8ced803a3c82c"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}

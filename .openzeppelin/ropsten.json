@@ -1,0 +1,14 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "reward-nfts/RewardRegistry": [
+      {
+        "address": "0xCFc6E5cDa956F54101fa53dFD49aA960024FEFE6",
+        "kind": "NonProxy",
+        "bytecodeHash": "5771c2c462ad95573bd3684643b8139c0c95f59e30045e755aceb364fdd0cfb6"
+      }
+    ]
+  },
+  "manifestVersion": "2.2"
+}

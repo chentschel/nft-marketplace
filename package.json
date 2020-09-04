@@ -1,0 +1,46 @@
+{
+  "name": "reward-nfts",
+  "version": "1.0.0",
+  "description": "Reward NFTs contracts",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contracts": "^3.1.0",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@openzeppelin/test-helpers": "^0.5.5",
+    "@truffle/hdwallet-provider": "^1.0.43",
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "ganache-core": "^2.11.2",
+    "husky": "^4.2.5",
+    "mocha": "^7.2.0",
+    "prettier": "^2.1.1",
+    "solidity-coverage": "^0.7.10"
+  },
+  "scripts": {
+    "test": "oz compile && mocha --exit --recursive test",
+    "lint": "npx eslint test && npx solium -d contracts",
+    "coverage": "npx truffle run coverage --temp build",
+    "lint:fix": "npx eslint --fix test && npx solium -d contracts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxxx"
+  },
+  "author": "Christian Hentschel",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/xxxxx/issues"
+  },
+  "homepage": "https://github.com/xxxxx#readme"
+}

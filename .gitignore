@@ -1,0 +1,20 @@
+# NPM modules
+node_modules
+
+# Truffle artifacts
+build
+
+# OpenZeppelin SDK
+.openzeppelin/dev-*.json
+.openzeppelin/.session
+
+# Deployment configuration
+.env
+
+# Other
+.DS_Store
+.idea
+
+# Coverage
+coverage.json
+coverage
