@@ -4,16 +4,16 @@
   "proxies": {
     "reward-nfts/ArtToken": [
       {
-        "address": "0x51F37e88072c45F93c727Bf2A040954C68473211",
+        "address": "0x8E6a891B0800b8e84Da23F0d0F3c04F0594f20D5",
         "kind": "NonProxy",
-        "bytecodeHash": "631a0c2164fada390b5697d24a9bd7bdf45c6ff722a3918f32489793330806f6"
+        "bytecodeHash": "5003d5c930de0c6435974737d73f40a3bb400147567d302c13036ec35227419f"
       }
     ],
     "reward-nfts/Marketplace": [
       {
-        "address": "0xF11de26883EB2EBF9877a01703DDC1eB619094E6",
+        "address": "0xB221dA0C26BB357F06aAdfFe6D04a5B9E29726b5",
         "kind": "NonProxy",
-        "bytecodeHash": "90070e76d5aba3b8de668f3586c3781d0bf2e8f173093b2871b8ced803a3c82c"
+        "bytecodeHash": "bc9714e51b3f4b1d0e0483f614bed54a4c24beddfd76d344523fd83fde2fb450"
       }
     ]
   },

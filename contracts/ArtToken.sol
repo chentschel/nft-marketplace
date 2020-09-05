@@ -10,7 +10,7 @@ contract ArtToken is Ownable, ERC721 {
     event BaseURIChange(string baseURI);
 
     event ItemCreated(
-        address indexed from,
+        address indexed owner,
         uint256 indexed tokenId
     );
 
@@ -78,7 +78,8 @@ contract ArtToken is Ownable, ERC721 {
         external
     {
         // Create the new asset and allow marketplace to manage it
-        approve(
+        // Use this to override the msg.sender here.
+        this.approve(
             _marketplace,
             _create(address(this), _metaDataURI, _metaData)
         );
@@ -87,7 +88,7 @@ contract ArtToken is Ownable, ERC721 {
         (bool success, ) = _marketplace.call(_encodedCallData);
         require(
             success,
-            "marketplace failed to execute create order"
+            "Marketplace: failed to execute create & publish order"
         );
     }
 
