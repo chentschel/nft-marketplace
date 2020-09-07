@@ -88,7 +88,7 @@ contract ArtToken is Ownable, ERC721 {
         (bool success, ) = _marketplace.call(_encodedCallData);
         require(
             success,
-            "Marketplace: failed to execute create & publish order"
+            "Marketplace: failed to execute publish order"
         );
     }
 

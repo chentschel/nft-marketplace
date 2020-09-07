@@ -4,9 +4,9 @@
   "proxies": {
     "reward-nfts/ArtToken": [
       {
-        "address": "0x8E6a891B0800b8e84Da23F0d0F3c04F0594f20D5",
+        "address": "0xC002B6C8d28A23d2AD6A32DbBC7C6004583CaFf5",
         "kind": "NonProxy",
-        "bytecodeHash": "5003d5c930de0c6435974737d73f40a3bb400147567d302c13036ec35227419f"
+        "bytecodeHash": "b35d1ec23613bfef37a398d03969b1cf94b614df85223ea64139ba45d27d8609"
       }
     ],
     "reward-nfts/Marketplace": [
